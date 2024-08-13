@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*
+    headings: font-family: "Marcellus", serif;
+    text: font-family: "Poppins", sans-serif;
+    Bg_color: #6858F5;
+    Image_Shadow: #58DDF5;    
+    secondary_color: ##9B58F5;
+    Font_color: #FFFFFF;   
+     
+*/
+
+body{
+    background-color: #6858F5;
+    color: #FFFFFF;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+
+.navigate ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigate li{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    background-color: #9B58F5;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 0.75rem;
+}
+
+.navigate a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.poster{
+    background-image: url('../images/hot-air-balloon-8869138_1920.jpg');
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+.text{
+    height: 30rem;
+    background-color: #000000;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.name{
+   font-size: 2rem;
+}
+
+.heading{
+    margin-top: 2.5rem;
+    background-color: #9B58F5;
+    font-family: "Marcellus", serif;
+    width: fit-content;
+    padding: 0.5rem;
+}
+
+.money{
+   display: flex;
+   flex-direction: column;
+   margin-top: 2.5rem;
+}
+
+.money h2{
+    grid-area: t;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.money img{
+    margin-top: 1rem;
+    grid-area: i;
+    transition: 1s ease;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.money img:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 8px 15px 0 #58DDF5, 0 8px 15px 0 #58DDF5;
+    border-radius: 20px;
+    
+}
+
+.money p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    grid-area: p;
+    font-family: "Marcellus", serif;
+    font-size: 0.75rem;
+    line-height: 1.6rem;
+}
+
+.researcher{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.researcher h2{
+    grid-area: t;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.researcher img{
+    margin-top: 1rem;
+    grid-area: i;
+    transition: 1s ease;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.researcher img:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 8px 15px 0 #58DDF5, 0 8px 15px 0 #58DDF5;
+    border-radius: 20px;
+    
+}
+
+.researcher p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    grid-area: p;
+    font-family: "Marcellus", serif;
+    font-size: 0.75rem;
+    line-height: 1.6rem;
+}
+
+.city{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.city h2{
+    grid-area: t;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.city img{
+    margin-top: 1rem;
+    grid-area: i;
+    transition: 1s ease;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.city img:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 8px 15px 0 #58DDF5, 0 8px 15px 0 #58DDF5;
+    border-radius: 20px;
+    
+}
+
+.city p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    grid-area: p;
+    font-family: "Marcellus", serif;
+    font-size: 0.75rem;
+    line-height: 1.6rem;
+}
+
+
+.base{
+    background-color: #9B58F5;
+    margin: 0px;
+}
+
+.socialicons ul{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.socialicons i{
+    padding: 1rem;
+}
+
+.base p{
+    font-family: "Marcellus", serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.container{
+    margin-bottom: 5rem;
+}
+
+.card{
+    margin-top: 2.5rem;
+    transition: 1s ease;
+    color: #FFFFFF;
+}
+
+.card:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 4px 8px 0 #58DDF5, 0 8px 8px 0 #58DDF5;
+}
+
+.card-body {
+    background-color: #9B58F5;
+}
+
+
+
+
+
+@media(min-width:30rem) {
+
+
+body{
+    background-color: #6858F5;
+    color: #FFFFFF;
+}
+
+.wrapper{
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+
+.navigate ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navigate li{
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    background-color: #9B58F5;
+    margin: 1rem;
+    width: 10rem;
+    font-size: 1.25rem;
+}
+
+.navigate a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.poster{
+    background-image: url('/images/hot-air-balloon-8869138_1920.jpg');
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    
+}
+
+.text{
+    height: 30rem;
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+   font-size: 7rem;
+}
+
+
+.money{
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "t t"
+                         "i p";
+}
+
+.money h2{
+    grid-area: t;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.money img{
+    margin-top: 1rem;
+    grid-area: i;
+    transition: 1s ease;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.money img:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 8px 15px 0 #58DDF5, 0 8px 15px 0 #58DDF5;
+    border-radius: 20px;
+    
+}
+
+.money p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    grid-area: p;
+    font-family: "Marcellus", serif;
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+}
+
+.researcher{
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "t t"
+                         "i p";
+}
+
+.researcher h2{
+    grid-area: t;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.researcher img{
+    margin-top: 1rem;
+    grid-area: i;
+    transition: 1s ease;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.researcher img:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 8px 15px 0 #58DDF5, 0 8px 15px 0 #58DDF5;
+    border-radius: 20px;
+    
+}
+
+.researcher p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    grid-area: p;
+    font-family: "Marcellus", serif;
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+}
+
+.city{
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "t t"
+                         "i p";
+}
+
+.city h2{
+    grid-area: t;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.city img{
+    margin-top: 1rem;
+    grid-area: i;
+    transition: 1s ease;
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.city img:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 8px 15px 0 #58DDF5, 0 8px 15px 0 #58DDF5;
+    border-radius: 20px;
+    
+}
+
+.city p{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    grid-area: p;
+    font-family: "Marcellus", serif;
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+}
+
+
+.base{
+    background-color: #9B58F5;
+    margin: 0px;
+}
+
+.socialicons ul{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.socialicons i{
+    padding: 1rem;
+}
+
+.base p{
+    font-family: "Marcellus", serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.container{
+    margin-bottom: 5rem;
+}
+
+.card{
+    margin-top: 2.5rem;
+    transition: 1s ease;
+    color: #FFFFFF;
+}
+
+.card:hover{
+    transform: scale(1.055);
+    transition: 1s ease;
+    box-shadow: 0 4px 8px 0 #58DDF5, 0 8px 8px 0 #58DDF5;
+}
+
+.card-body {
+    background-color: #9B58F5;
+}
+
+}
